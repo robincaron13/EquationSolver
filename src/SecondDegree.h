@@ -73,35 +73,6 @@ public:
                 << sol.back().real() << std::endl;
     }
 
-    //    if (a == 0)  std::cout << "Erreur ! Votre equation n'est pas du second
-    //    degre." <<  std::endl; else
-    //    {
-    //        delta = b*b - 4*a*c;
-    //        if (delta < 0){
-    //            std::cout << "No real solution:" <<  std::endl;
-    //            x0 = -b/(2*a);
-    //            std::complex<double> z1(x0, sqrt(-delta)/(2*a));
-    //            std::complex<double> z2(x0, -sqrt(-delta)/(2*a));
-    //
-    //             std::cout << "Two imaginary solutions." <<  std::endl;
-    //             std::cout << "First solution : " << z1 <<  std::endl;
-    //             std::cout << "Second solution : " << z2 <<  std::endl;
-    //        }
-    //        else if (delta == 0)
-    //        {
-    //            x0 = -b/(2*a);
-    //             std::cout << "One real solution : " << x0 <<  std::endl;
-    //        }
-    //        else // Case where delta > 0
-    //        {
-    //            x1 = (-b+ sqrt(delta))/(2*a);
-    //            x2 = (-b- sqrt(delta))/(2*a);
-    //
-    //             std::cout << "Two real solutions." <<  std::endl;
-    //             std::cout << "First real solution : " << x1 <<  std::endl;
-    //             std::cout << "Second real solution : " << x2 <<  std::endl;
-    //        }
-    //    }
   }
 };
 
